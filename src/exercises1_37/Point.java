@@ -1,4 +1,4 @@
-
+package exercises1_37;
 
 public class Point {
     private int x;

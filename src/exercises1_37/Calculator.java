@@ -1,3 +1,5 @@
+package exercises1_37;
+
 public class Calculator {
     private Floor floor;
     private Carpet carpet;

@@ -1,3 +1,5 @@
+package exercises1_37;
+
 public class ComplexNumber {
     private double real;
     private double imaginary;

@@ -1,3 +1,5 @@
+package exercises1_37;
+
 public class Carpet {
     private double cost;
 
