@@ -15,25 +15,23 @@ public class Main {
 //        System.out.println(getDigitCount(3));
 //        numberToWords(100);
 //        inputThenPrintSumAndAverage();
-    System.out.println(Math.sqrt(2));
+//        System.out.println(Math.sqrt(2));
     }
-
-
-
 
     public static int getBucketCount(double width,double height,double areaPerBucket,int extraBuckets){
         if(width<=0||height<=0||areaPerBucket<=0||extraBuckets<0) return -1;
         return (int)Math.ceil((height*width)/areaPerBucket)-extraBuckets;
     }
+
     public static int getBucketCount(double width,double height,double areaPerBucket){
         if(width<=0||height<=0||areaPerBucket<=0) return -1;
         return (int)Math.ceil((height*width)/areaPerBucket);
     }
+
     public static int getBucketCount(double area,double areaPerBucket){
         if(area<=0||areaPerBucket<=0) return -1;
         return (int)Math.ceil(area/areaPerBucket);
     }
-
 
     public static void inputThenPrintSumAndAverage(){
         int numberCounter = 0;
@@ -66,7 +64,6 @@ public class Main {
 
 
     }
-
 
     public static void numberToWords(int number){
         if(number < 0){
@@ -107,7 +104,6 @@ public class Main {
         return reversedNumber;
     }
 
-
     public static int getDigitCount(int number){
         if(number < 0){
             return -1;
@@ -119,11 +115,6 @@ public class Main {
         }
         return digitCounter;
     }
-
-
-
-
-
 
     public static boolean isPerfectNumber(int number){
         if(number < 0){
@@ -141,8 +132,6 @@ public class Main {
         }
         return sum == number;
     }
-
-
 
     public static int getGreatestCommonDivisor(int first, int second){
         int greatestDivisor = 0;
@@ -164,9 +153,6 @@ public class Main {
         return greatestDivisor;
     }
 
-
-
-
     public static boolean hasSameLastDigit(int number1, int number2, int number3){
         if(number1 < 10 || number2 < 10 || number3 < 10|| number1 > 1000|| number2 > 1000|| number3 > 1000){
             return false;
@@ -178,8 +164,6 @@ public class Main {
 
 
     }
-
-
 
     public static int FirstLastDigitSum(int number){
         number = Math.abs(number);
@@ -196,12 +180,6 @@ public class Main {
 
         return (lastDigit + (number % 10));
     }
-
-
-
-
-
-
 
     public static boolean isPalindrome(int number){
         number = Math.abs(number);
@@ -222,7 +200,6 @@ public class Main {
         return false;
 
     }
-
 
     public static boolean isOdd(int number){
         if (number <= 0){
