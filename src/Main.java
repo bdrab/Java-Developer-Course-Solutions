@@ -1,3 +1,7 @@
+import exercise_40.Car;
+import exercise_40.Ford;
+import exercise_40.Mitsubishi;
+
 import java.io.Serial;
 import java.util.Scanner;
 
@@ -16,6 +20,11 @@ public class Main {
 //        numberToWords(100);
 //        inputThenPrintSumAndAverage();
 //        System.out.println(Math.sqrt(2));
+        Car newCar = new Ford(3, "Fordzik");
+
+        System.out.println(newCar.accelerate());
+
+
     }
 
     public static int getBucketCount(double width,double height,double areaPerBucket,int extraBuckets){
