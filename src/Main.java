@@ -1,6 +1,8 @@
 import exercise_40.Car;
 import exercise_40.Ford;
 import exercise_40.Mitsubishi;
+import exercise_41.DeluxeBurger;
+import exercise_41.Hamburger;
 
 import java.io.Serial;
 import java.util.Scanner;
@@ -20,10 +22,9 @@ public class Main {
 //        numberToWords(100);
 //        inputThenPrintSumAndAverage();
 //        System.out.println(Math.sqrt(2));
-        Car newCar = new Ford(3, "Fordzik");
-
-        System.out.println(newCar.accelerate());
-
+        Hamburger ham = new DeluxeBurger();
+        ham.addHamburgerAddition1("Tomato", 123);
+        System.out.println("Total Burger price is " + ham.itemizeHamburger());
 
     }
 
