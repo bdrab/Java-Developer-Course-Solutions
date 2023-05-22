@@ -3,8 +3,10 @@ import exercise_40.Ford;
 import exercise_40.Mitsubishi;
 import exercise_41.DeluxeBurger;
 import exercise_41.Hamburger;
+import exercise_42.SortedArray;
 
 import java.io.Serial;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -22,9 +24,13 @@ public class Main {
 //        numberToWords(100);
 //        inputThenPrintSumAndAverage();
 //        System.out.println(Math.sqrt(2));
-        Hamburger ham = new DeluxeBurger();
-        ham.addHamburgerAddition1("Tomato", 123);
-        System.out.println("Total Burger price is " + ham.itemizeHamburger());
+//        Hamburger ham = new DeluxeBurger();
+//        ham.addHamburgerAddition1("Tomato", 123);
+//        System.out.println("Total Burger price is " + ham.itemizeHamburger());
+
+//        String[] argumenty = new String[45];
+//        System.out.printf(Arrays.toString(argumenty));
+
 
     }
 
